@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/nametv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your name." />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Name: "
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/agetv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your age." />
+
+    <EditText
+        android:id="@+id/etage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Age:"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/major"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your major." />
+
+    <EditText
+        android:id="@+id/etmajor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Major:"
+        android:inputType="textPersonName" />
+</LinearLayout>
